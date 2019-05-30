@@ -1,0 +1,10 @@
+/* Desktop 1366px 1600px */
+
+@media only screen and (min-width: 1280px) and (max-width: 1600px) { 
+	.reveal .slides {top: 43% !important;}
+	.present h1 {font-size: 80px !important; margin-bottom: 20px !important;}
+	.present ul li {font-size: 37px;line-height: 150%;}
+	.present ul li:last-child {margin-top: 20px;}
+	.reveal .logo-image {margin: 0 0 0 10%;}
+	.reveal .logo-image > img {margin: 80px 0;}
+}
