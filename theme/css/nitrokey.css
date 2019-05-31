@@ -10,7 +10,7 @@ body {
     background-size: 187.5px 52.5px;
 }
 
-.slides .present {
+.slides section {
     top: 0 !important;
 }
 
@@ -19,7 +19,7 @@ body {
     margin-bottom: 0;
 }
 
-.present h1 {
+.slides section h1 {
     color: #fff;
     font-size: 80px;
     font-family: "Teko", sans-serif !important;
@@ -28,7 +28,7 @@ body {
     position: relative;
     text-transform: none;
 }
-.present h1::after {
+.slides section h1::after {
     background: #fff none repeat scroll 0 0;
     bottom: 0;
     content: "";
@@ -38,11 +38,11 @@ body {
     width: 63px;
 }
 
-.present ul {
+.slides section ul {
     margin-left: 0;
 }
 
-.present ul li {
+.slides section ul li {
     font-family: open sans;
     font-size: 38px;
     font-weight: 400;
@@ -51,7 +51,7 @@ body {
     position: relative;
 }
 
-.present ul li::before {
+.slides section ul li::before {
     content: "";
     font-family: Fontawesome;
     left: -25px;
