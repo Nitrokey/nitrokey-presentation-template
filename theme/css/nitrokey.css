@@ -2,16 +2,19 @@ body {
     background: #2b2b2b radial-gradient(circle farthest-corner at center center , #555a5f 0%, #1c1e20 100%) repeat scroll 0 0;
 }
 
-/* Logo Image */
-.slides {
-    background-image: url("../assets/img/logo.png");
-    background-repeat: no-repeat;
-    background-position: bottom 35px left 7%;
-}
-
 .slides section {
     top: 0 !important;
     padding: 50px 5% 0 5% !important;
+    background-image: url("../assets/img/logo.png");
+    background-repeat: no-repeat;
+    background-position: bottom 25px left 6%;
+    height: 100% !important;
+}
+
+.slides section.image-fullscreen {
+    background: none;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Progrss Bar */
@@ -38,8 +41,20 @@ body {
     width: 63px;
 }
 
+.slides section img {
+    margin: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
 .slides section ul {
     width: 95%;
+    margin-left: 0;
+}
+
+.slides .column ul {
+    margin-left: 0.6em;
 }
 
 .slides section ul li {
