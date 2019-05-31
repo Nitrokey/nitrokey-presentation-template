@@ -6,12 +6,12 @@ body {
 .slides {
     background-image: url("../assets/img/logo.png");
     background-repeat: no-repeat;
-    background-position: bottom left 20px;
-    background-size: 187.5px 52.5px;
+    background-position: bottom left 4%;
 }
 
 .slides section {
     top: 0 !important;
+    padding: 0 !important;
 }
 
 /* Progrss Bar */
@@ -21,10 +21,10 @@ body {
 
 .slides section h1 {
     color: #fff;
-    font-size: 80px;
+    font-size: 100px;
     font-family: "Teko", sans-serif !important;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     position: relative;
     text-transform: none;
 }
@@ -40,11 +40,12 @@ body {
 
 .slides section ul {
     margin-left: 0;
+    width: 95%;
 }
 
 .slides section ul li {
     font-family: open sans;
-    font-size: 38px;
+    font-size: 42px;
     font-weight: 400;
     line-height: 160%;
     list-style: outside none none;
