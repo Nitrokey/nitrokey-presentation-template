@@ -6,12 +6,12 @@ body {
 .slides {
     background-image: url("../assets/img/logo.png");
     background-repeat: no-repeat;
-    background-position: bottom left 4%;
+    background-position: bottom 35px left 7%;
 }
 
 .slides section {
     top: 0 !important;
-    padding: 0 !important;
+    padding: 50px 5% 0 5% !important;
 }
 
 /* Progrss Bar */
@@ -39,7 +39,6 @@ body {
 }
 
 .slides section ul {
-    margin-left: 0;
     width: 95%;
 }
 
@@ -146,45 +145,45 @@ body {
     /*!*.slides {zoom: normal !important;}*!*/
 /*!*}*!*/
 
-/*********************************************
- * NAVIGATION CONTROLS
- *********************************************/
-.reveal .controls .navigate-left,
-.reveal .controls .navigate-left.enabled {
-    border-right-color: #42affa;
-}
+/*!**********************************************/
+ /** NAVIGATION CONTROLS*/
+ /**********************************************!*/
+/*.reveal .controls .navigate-left,*/
+/*.reveal .controls .navigate-left.enabled {*/
+    /*border-right-color: #42affa;*/
+/*}*/
 
-.reveal .controls .navigate-right,
-.reveal .controls .navigate-right.enabled {
-    border-left-color: #42affa;
-}
+/*.reveal .controls .navigate-right,*/
+/*.reveal .controls .navigate-right.enabled {*/
+    /*border-left-color: #42affa;*/
+/*}*/
 
-.reveal .controls .navigate-up,
-.reveal .controls .navigate-up.enabled {
-    border-bottom-color: #42affa;
-}
+/*.reveal .controls .navigate-up,*/
+/*.reveal .controls .navigate-up.enabled {*/
+    /*border-bottom-color: #42affa;*/
+/*}*/
 
-.reveal .controls .navigate-down,
-.reveal .controls .navigate-down.enabled {
-    border-top-color: #42affa;
-}
+/*.reveal .controls .navigate-down,*/
+/*.reveal .controls .navigate-down.enabled {*/
+    /*border-top-color: #42affa;*/
+/*}*/
 
-.reveal .controls .navigate-left.enabled:hover {
-    border-right-color: #8dcffc;
-}
+/*.reveal .controls .navigate-left.enabled:hover {*/
+    /*border-right-color: #8dcffc;*/
+/*}*/
 
-.reveal .controls .navigate-right.enabled:hover {
-    border-left-color: #8dcffc;
-}
+/*.reveal .controls .navigate-right.enabled:hover {*/
+    /*border-left-color: #8dcffc;*/
+/*}*/
 
-.reveal .controls .navigate-up.enabled:hover {
-    border-bottom-color: #8dcffc;
-}
+/*.reveal .controls .navigate-up.enabled:hover {*/
+    /*border-bottom-color: #8dcffc;*/
+/*}*/
 
-.reveal .controls .navigate-down.enabled:hover {
-    border-top-color: #8dcffc;
-}
+/*.reveal .controls .navigate-down.enabled:hover {*/
+    /*border-top-color: #8dcffc;*/
+/*}*/
 
-.reveal .progress span {
-    background: #42affa;
-}
+/*.reveal .progress span {*/
+    /*background: #42affa;*/
+/*}*/
