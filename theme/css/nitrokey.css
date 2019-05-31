@@ -1,10 +1,189 @@
-/* Desktop 1366px 1600px */
+body {
+    background: #2b2b2b radial-gradient(circle farthest-corner at center center , #555a5f 0%, #1c1e20 100%) repeat scroll 0 0;
+}
 
-@media only screen and (min-width: 1280px) and (max-width: 1600px) {
-    .reveal .slides {top: 43% !important;}
-    .present h1 {font-size: 80px !important; margin-bottom: 20px !important;}
-    .present ul li {font-size: 37px;line-height: 150%;}
-    .present ul li:last-child {margin-top: 20px;}
-    .reveal .logo-image {margin: 0 0 0 10%;}
-    .reveal .logo-image > img {margin: 80px 0;}
+/* Logo Image */
+.slides {
+    background-image: url("../assets/img/logo.png");
+    background-repeat: no-repeat;
+    background-position: bottom left 20px;
+    background-size: 187.5px 52.5px;
+}
+
+.slides .present {
+    top: 0 !important;
+}
+
+/* Progrss Bar */
+.reveal .progress {
+    margin-bottom: 0;
+}
+
+.present h1 {
+    color: #fff;
+    font-size: 80px;
+    font-family: "Teko", sans-serif !important;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: none;
+}
+.present h1::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 5px;
+    left: 46%;
+    position: absolute;
+    width: 63px;
+}
+
+.present ul {
+    margin-left: 0;
+}
+
+.present ul li {
+    font-family: open sans;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 160%;
+    list-style: outside none none;
+    position: relative;
+}
+
+.present ul li::before {
+    content: "";
+    font-family: Fontawesome;
+    left: -25px;
+    position: absolute;
+    top: 7px;
+}
+
+
+/*!* Logo Image *!*/
+/*.reveal.logo-image {*/
+    /*left: 10%;*/
+    /*position: fixed;*/
+    /*top: 82%;*/
+/*}*/
+/*.reveal .logo-image {*/
+    /*bottom: -8%;*/
+    /*left: 0;*/
+    /*position: fixed;*/
+/*}*/
+/*.reveal .logo-image > img {*/
+    /*background: rgba(0, 0, 0, 0) none repeat scroll 0 0;*/
+    /*border: medium none;*/
+    /*height: auto;*/
+    /*width: 100%;*/
+/*}*/
+
+/*.reveal section img {*/
+    /*box-shadow: none;*/
+/*}*/
+
+/*@media only screen and (min-width: 1280px) and (max-width: 1600px) {*/
+    /*.reveal .logo-image {margin: 0 0 0 10%;}*/
+    /*.reveal .logo-image > img {margin: 0 0 80px 0;}*/
+/*}*/
+
+
+/*!*.reveal {*!*/
+    /*!*font-size: 38px;*!*/
+/*!*}*!*/
+
+/*!*.reveal .slides > section,*!*/
+/*!*.reveal .slides > section > section {*!*/
+    /*!*line-height: 1.3;*!*/
+    /*!*font-weight: inherit;*!*/
+/*!*}*!*/
+
+/*!*.reveal h1,*!*/
+/*!*.reveal h6 {*!*/
+    /*!*text-transform: none;*!*/
+/*!*}*!*/
+
+/*!*.reveal q,*!*/
+/*!*.reveal blockquote {*!*/
+    /*!*quotes: none;*!*/
+/*!*}*!*/
+
+/*!*.reveal pre {*!*/
+    /*!*box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);*!*/
+/*!*}*!*/
+
+/*!*.reveal section img {*!*/
+    /*!*box-shadow: none;*!*/
+/*!*}*!*/
+
+
+
+
+
+
+
+
+
+
+/*!*.reveal .present > img {*!*/
+    /*!*background: rgba(0, 0, 0, 0) none repeat scroll 0 0;*!*/
+    /*!*border: medium none;*!*/
+    /*!*float: right;*!*/
+    /*!*height: auto;*!*/
+    /*!*width: 100%;*!*/
+/*!*}*!*/
+
+/*!*!* Desktop 1366px 1600px *!*!*/
+
+/*!*@media only screen and (min-width: 1280px) and (max-width: 1600px) {*!*/
+    /*!*!*.reveal .slides {top: 43% !important;}*!*!*/
+    /*!*.present h1 {font-size: 80px !important; margin-bottom: 20px !important;}*!*/
+    /*!*.present ul li {font-size: 37px;line-height: 150%;}*!*/
+    /*!*.present ul li:last-child {margin-top: 20px;}*!*/
+    /*!*.reveal .logo-image {margin: 0 0 0 10%;}*!*/
+    /*!*.reveal .logo-image > img {margin: 80px 0;}*!*/
+    /*!*.slides {zoom: normal !important;}*!*/
+/*!*}*!*/
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-left.enabled {
+    border-right-color: #42affa;
+}
+
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-right.enabled {
+    border-left-color: #42affa;
+}
+
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-up.enabled {
+    border-bottom-color: #42affa;
+}
+
+.reveal .controls .navigate-down,
+.reveal .controls .navigate-down.enabled {
+    border-top-color: #42affa;
+}
+
+.reveal .controls .navigate-left.enabled:hover {
+    border-right-color: #8dcffc;
+}
+
+.reveal .controls .navigate-right.enabled:hover {
+    border-left-color: #8dcffc;
+}
+
+.reveal .controls .navigate-up.enabled:hover {
+    border-bottom-color: #8dcffc;
+}
+
+.reveal .controls .navigate-down.enabled:hover {
+    border-top-color: #8dcffc;
+}
+
+.reveal .progress span {
+    background: #42affa;
 }
