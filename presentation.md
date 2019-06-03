@@ -7,8 +7,10 @@
 - Top-Leute <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
+
 <!-- .slide: class="image-fullscreen" -->
 ![logo](img/rel_attr.png)
+
 
 
 # Text and half image side by side
@@ -21,6 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 
+
 # List and half image side by side
 <div class="container-2col">
 
@@ -31,6 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![logo](img/rel_attr.png)
 
 </div>
+
 
 
 # Text and text side by side
