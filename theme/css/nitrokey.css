@@ -75,16 +75,19 @@ body {
 }
 
 /* 2-column layout */
-.container-2col{
+.container-2col {
     display: flex;
     justify-content: space-between;
 }
-.container-2col .column{
+
+.container-2col > p,
+.container-2col > ul {
     flex: 1;
     text-align: left;
 }
 
-.container-2col .column:not(:last-child){
+.container-2col > p:not(:last-child),
+.container-2col > ul:not(:last-child) {
     margin-right: 25px;
 }
 
