@@ -13,8 +13,11 @@ body {
 
 .slides section.image-fullscreen {
     background: none;
-    background-size: contain;
-    background-repeat: no-repeat;
+}
+
+.slides section.image-fullscreen p,
+.slides section.image-fullscreen p img {
+    height: 100%;
 }
 
 /* Progrss Bar */

@@ -7,6 +7,7 @@
 - Top-Leute <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
+<!-- .slide: class="image-fullscreen" -->
 ![logo](img/rel_attr.png)
 
 
