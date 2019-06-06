@@ -1,4 +1,4 @@
-#Clone repository
+# Clone repository
 
 `git clone git@github.com:Nitrokey/nitrokey-presentation-template.git`
 
@@ -9,7 +9,7 @@ In the repository root (not submodule root)
 `git submodule update`
 
 
-#Update revel.js
+# Update revel.js
 
 In the repository root (not submodule root)
 
