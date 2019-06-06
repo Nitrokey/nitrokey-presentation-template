@@ -9,7 +9,7 @@ In the repository root (not submodule root)
 `git submodule update`
 
 
-# Update revel.js
+# Update reveal.js
 
 In the repository root (not submodule root)
 
