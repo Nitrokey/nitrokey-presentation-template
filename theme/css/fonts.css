@@ -7,8 +7,20 @@
 @font-face {
   font-family: 'Teko';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   src: url('../assets/fonts/Teko/Teko-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../assets/fonts/Teko/Teko-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/Teko/Teko-Bold.ttf') format('truetype');
 }
 
 @font-face {
