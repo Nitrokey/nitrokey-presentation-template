@@ -17,5 +17,5 @@ In the repository root (not submodule root) execute `git submodule update`
 
 # Simple local server for tests
 
-1. `npm install --global http-server`
+1. `sudo npm install --global http-server`
 2. in project folder execute `http-server`
