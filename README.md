@@ -6,11 +6,9 @@
 # Clone repository
 
 1. `git clone git@github.com:Nitrokey/nitrokey-presentation-template.git`
-
-In the repository root (not submodule root):
-
-2. `git submodule init`
-3. `git submodule update`
+2. `cd nitrokey-presentation-template`
+3. `git submodule init`
+4. `git submodule update`
 
 
 # Update reveal.js
@@ -19,5 +17,5 @@ In the repository root (not submodule root) execute `git submodule update`
 
 # Simple local server for tests
 
-1. `npm install --global http-server`
+1. `sudo npm install --global http-server`
 2. in project folder execute `http-server`
