@@ -31,3 +31,13 @@
 .container-2col ul {
     margin-left: 1em !important;
 }
+
+html.print-pdf body {
+    color: #fff !important;
+}
+html.print-pdf h1, html.print-pdf h2, html.print-pdf h3, html.print-pdf h4, html.print-pdf h5, html.print-pdf h6 {
+    color: #fff !important;
+}
+html.print-pdf a:link, html.print-pdf a:visited {
+    color: #fff !important;
+}
