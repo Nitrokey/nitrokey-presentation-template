@@ -139,6 +139,7 @@ body {
 }
 .reveal a {
     color: #fff !important;
+    text-decoration: underline;
 }
 
 
